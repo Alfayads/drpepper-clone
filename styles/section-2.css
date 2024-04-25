@@ -1,0 +1,100 @@
+.section-2{
+    width: 100vw;
+    height: 80vh;
+}
+
+.section-2 .top {
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    background-color: var(--dark-brown);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 .bottom{
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(200, 21, 51);
+}
+
+.section-2 .dark{
+    height: 50%;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.section-2 .top .top-child , .section-2 .bottom-child{
+    width: 56%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-2 .top .top-child .top-image{
+    width: 45%;
+}
+
+.section-2 .top .top-child .top-image img{
+    width: 85%;
+}
+
+.section-2 .top .top-child .top-content h2 , .section-2 .bottom .bottom-child .bottom-content h2,.dark-content h2{
+    font-size: 36px;
+    line-height: 34px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: var(--white);
+    margin-bottom: 30px;
+}
+
+.section-2 .bottom .bottom-child .bottom-content p, .dark-content p{
+    font-size: 20px;
+    color: var(--white);
+    font-weight: 500;
+    margin-bottom: 21px;
+}
+
+.section-2 .top .top-child .top-content button , .section-2 .bottom .bottom-child .bottom-content button ,.dark-content button{
+    padding: 12px 32px;
+    font-size: 16px;
+    border-radius: 50px;
+    border: none;
+    text-transform: uppercase;
+    font-weight: 800;
+    color: var(--brown-text);
+    transition: 0.2s all ease-in-out;
+    cursor: pointer;
+}
+
+.section-2 .top .top-child .top-content button:hover,.section-2 .bottom .bottom-child .bottom-content button:hover ,.dark-content button:hover{
+    background-color: var(--cream);
+}
+
+
+.dark-image img{
+    width: 352px;
+}
+
+.dark-child{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 60%;
+}
+
+
+
+
+
+
+

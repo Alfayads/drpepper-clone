@@ -1,0 +1,62 @@
+.section-1 {
+    width: 100vw;
+    height: 100vh;
+
+}
+
+.section-1-child {
+    background-image: url("../assets/images/coconut-home-bg-ezgif.com-optiwebp.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: relative;
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 50%;
+    height: 100vh;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.text button{
+    position: absolute;
+    bottom: 5pc;
+    padding: 0 1px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid var(--white);
+    background-color: transparent;
+}
+
+.text-child {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    flex-direction: column;
+    margin-bottom: 8pc;
+}
+
+.text-child h1 {
+    font-size: 51px;
+    line-height: 51px;
+    letter-spacing: 4px;
+    margin-bottom: 20px;
+    color: var(--brown-text);
+}
+
+.text-child p {
+    width: 100%;
+    text-align: left;
+    color: var(--brown-text);
+}

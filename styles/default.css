@@ -1,0 +1,24 @@
+:root{
+    --white: #fff;
+    --brown-text: rgb(138, 36, 51);
+    --cream: rgb(245, 223, 202);
+    --dark-brown: #951c2f;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    position: relative;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
